@@ -6,3 +6,5 @@ const { getMe } = require("../controllers/auth");
 const { verifyUser } = require("../middleware/auth");
 
 router.get("/me", verifyUser, getMe);
+
+

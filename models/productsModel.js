@@ -18,10 +18,10 @@ const productSchema = new mongoose.Schema(
     brand: {
       type: String,
     },
-    // image: {
-    //   type: String,
-    //   required: [true, "Image must be included"],
-    // },
+    image: {
+      type: String,
+      required: [true, "Image must be included"],
+    },
 
     slug: {
       type: String,

@@ -29,6 +29,9 @@ const Customer = mongoose.model("Customer", {
     enum: ["Admin", "Customer"],
     default: "Customer", //less previlage
   },
+  Photo:{
+    type:String
+  }
 });
 
 module.exports = Customer;
